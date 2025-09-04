@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Inter;
+    color: black;
+    background-color: #ffffff;
+}
+
+.testimonial-div {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url("../Assets/testimonial-bg2.webp");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.testimonial-card-div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    /* border: 1px solid rgb(223, 37, 37); */
+}
+
+.testimonial-cards {
+    background-color: white;
+    /* border: 1px solid rgb(84, 176, 27); */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.testimonial-tittle {
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.testimonial-para {
+    color: white;
+    border: 1px solid white;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.card-name {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.card-desc {
+    font-size: 18px;
+    color: grey;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.card-para {
+    color: grey;
+    font-size: 20px;
+}

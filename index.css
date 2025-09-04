@@ -16,7 +16,9 @@ body{
     color: black;
     background-color: #ffffff;
 }
-
+ul{
+    list-style: none;
+}
 :root{
 /* Buy Now Button color */
 --buynow-button-bg-color:rgb(177,139,94);

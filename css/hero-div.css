@@ -1,0 +1,107 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Inter;
+    color: black;
+    background-color: #ffffff;
+}
+/* HERO DIV STARTS */
+.hero-div{
+    /* border: 1px solid black; */
+    background-color: rgb(246,244,238);
+    height: auto;
+    width: 100%;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+}
+.hero-div .left-section{
+    
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: centerx;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    gap: 30px;
+    
+}
+.new-arrival-span{
+    padding: 10px;
+    height: auto;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(184,150,109);
+    /* border: 1px solid black; */
+    background-color: rgb(235,229,217);
+}
+.hero-tittle-div{
+    font-size: 90px;
+    height: auto;
+    width: 100%;
+    font-weight: 600;
+}
+
+.hero-description-div{
+    font-size: 20px;
+    color: grey;
+}
+
+.button-div{
+    margin: 20px;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+
+}
+
+.view-details-button{
+ box-shadow: 5px 5px 5px rgb(218, 206, 206);
+ border: none;
+}
+.right-section img{
+    /* background-color: rgb(36, 34, 29); */
+    height: auto;
+    width: 100%;
+    /* width: 800px; */
+}
+
+@media screen and (max-width:786px) {
+    .hero-tittle-div{
+    font-size: 40px;
+    height: auto;
+    width: 100%;
+    font-weight: 600;
+    }
+
+    .button-div{
+        flex-direction: column;
+    }
+    .buy-now-button{
+        font-size: 12px;
+        
+    }
+    .view-details-button{
+        font-size: 12px;
+    }
+}
+

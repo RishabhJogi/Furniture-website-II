@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Inter;
+    color: black;
+    background-color: #ffffff;
+}
+
+
+/* Navbar Div */
+nav{
+    /* border: 2px solid black; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+.logo-div img{
+    height: auto;
+    width: 200px;
+}
+.search-icon{
+    border-radius: 50%;
+    background-color:rgb(177,139,94);
+    color: white;
+    padding: 5px;
+}
+.searchbar-div{
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    /* padding: 5px; */
+    align-items: center;
+    
+}
+input[type="search"]:focus{
+    outline:none ;
+}
+input[type="search"]
+{
+    border-radius: 12px;
+    height: auto;
+    padding: 5px ;
+    margin-left: 10px;
+    width: 250px;
+    border: none;   
+    font-weight: 600;
+    font-size: 20px;
+}
+
+

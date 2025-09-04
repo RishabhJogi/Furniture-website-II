@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Inter;
+    color: black;
+    background-color: #ffffff;
+}
+
+.hot-deal-div {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin: 50px 0px;
+}
+
+.live-furniture {
+    /* border: 1px solid black; */
+    height: auto;
+    width: auto;
+    background-color: rgb(245, 241, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.crust-div {
+    height: auto;
+    width: auto;
+    width: auto;
+    /* border: 1px solid black; */
+    background-color: rgb(177, 139, 94);
+    margin: 30px;
+    padding: 30px;
+}
+
+.core-div {
+    border: 1px solid white;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    height: auto;
+    width: auto;
+   
+}
+
+.core-div-tittle {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+.core-div-para {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.core-div .buy-now-button {
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px black;
+    font-weight: 550;
+
+}
+
+.dinning-table {
+    height: auto;
+    width: auto;
+
+}
+
+.dinning-table img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+
+    .hot-deal-div {
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: auto;
+   padding: 0px;
+    }
+    .live-furniture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .crust-div {
+        width: 100%;
+        padding: 0px;
+}
+    .dinning-table{
+        flex-grow: 1;
+        width: 100%;
+    }
+    .dinning-table img{
+        width: 100%;
+        flex-grow: 1;
+    }
+}
+
+

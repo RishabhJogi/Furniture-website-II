@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Inter;
+    color: black;
+    background-color: #ffffff;
+}
+.trendy-collection-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.trendy-collection-div span{
+    /* border: 1px solid black; */
+    margin: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trendy-collection-div p{
+    font-size: 60px;
+    font-weight: 550;
+    margin: 20px;
+}
+.chair-card-div{
+    /* border: 1px solid black; */
+}
